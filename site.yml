@@ -2,3 +2,4 @@
 - hosts: databases
   roles:
     - mariadb
+  become: yes

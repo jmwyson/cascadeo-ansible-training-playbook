@@ -3,3 +3,10 @@
   roles:
     - mariadb
   become: yes
+
+- hosts: balancers
+  roles:
+    - haproxy
+  become: yes
+  vars:
+    servers: "{{ groups['db'] }}"

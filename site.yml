@@ -15,4 +15,5 @@
   roles:
     - apache
     - php
+    - wordpress
   become: yes

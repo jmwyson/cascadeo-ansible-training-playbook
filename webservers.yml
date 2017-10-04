@@ -1,5 +1,5 @@
 ---
-- host: webservers
+- hosts: webservers
   roles:
     - apache
     - php

@@ -10,3 +10,8 @@
   become: yes
   vars:
     servers: "{{ groups['balancers'] }}"
+
+- host: webservers
+  roles:
+    - apache
+  become: yes

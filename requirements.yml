@@ -17,3 +17,7 @@
 - src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-php
   name: php
   version: master
+
+- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-wordpress-mariadb
+  name: wordpress-mariadb
+  version: master

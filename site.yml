@@ -2,6 +2,7 @@
 - hosts: databases
   roles:
     - mariadb
+    - wordpress-mariadb
   become: yes
 
 - hosts: balancers
@@ -11,9 +12,4 @@
   vars:
     servers: "{{ groups['balancers'] }}"
 
-- host: webservers
-  roles:
-    - apache
-    - php
-    - wordpress
-  become: yes
+- include: webservers.yml

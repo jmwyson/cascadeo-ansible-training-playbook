@@ -1,0 +1,15 @@
+- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-wordpress
+  name: wordpress
+  version: master
+
+- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-apache
+  name: apache
+  version: master
+
+- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-haproxy
+  name: haproxy
+  version: master
+
+- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-mariadb
+  name: mariadb
+  version: master

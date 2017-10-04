@@ -1,0 +1,6 @@
+---
+- hosts: databases
+  roles:
+    - mariadb
+    - wordpress-mariadb
+  become: yes

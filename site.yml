@@ -1,9 +1,5 @@
 ---
-- hosts: databases
-  roles:
-    - mariadb
-    - wordpress-mariadb
-  become: yes
+- include: databases.yml
 
 - hosts: balancers
   roles:

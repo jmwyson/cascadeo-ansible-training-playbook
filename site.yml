@@ -9,4 +9,4 @@
     - haproxy
   become: yes
   vars:
-    servers: "{{ groups['db'] }}"
+    servers: "{{ groups['balancers'] }}"

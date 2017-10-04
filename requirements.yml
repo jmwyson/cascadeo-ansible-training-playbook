@@ -13,3 +13,7 @@
 - src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-mariadb
   name: mariadb
   version: master
+
+- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-php
+  name: php
+  version: master

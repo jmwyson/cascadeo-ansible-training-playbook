@@ -6,6 +6,6 @@
     - haproxy
   become: yes
   vars:
-    servers: "{{ groups['balancers'] }}"
+    servers: "{{ groups['webservers'] }}"
 
 - include: webservers.yml

@@ -1,0 +1,8 @@
+[databases]
+127.0.0.1
+
+[balancers]
+127.0.0.1
+
+[webservers]
+127.0.0.1

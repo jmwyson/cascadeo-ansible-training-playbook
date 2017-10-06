@@ -1,5 +1,5 @@
 [databases]
-192.168.1.143   ansible_user=vagrant
+127.0.0.1
 
 [balancers]
 127.0.0.1

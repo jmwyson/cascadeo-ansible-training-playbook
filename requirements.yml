@@ -1,23 +1,23 @@
-- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-wordpress
+- src: https://github.com/jmwyson/cascadeo-ansible-training-wordpress
   name: wordpress
   version: master
 
-- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-apache
+- src: https://github.com/jmwyson/cascadeo-ansible-training-apache
   name: apache
   version: master
 
-- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-haproxy
+- src: https://github.com/jmwyson/cascadeo-ansible-training-haproxy
   name: haproxy
   version: master
 
-- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-mariadb
+- src: https://github.com/jmwyson/cascadeo-ansible-training-mariadb
   name: mariadb
   version: master
 
-- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-php
+- src: https://github.com/jmwyson/cascadeo-ansible-training-php
   name: php
   version: master
 
-- src: git+https://bitbucket.org/jameswysoncascadeo/cascadeo-ansible-training-wordpress-mariadb
+- src: https://github.com/jmwyson/cascadeo-ansible-training-wordpress-mariadb
   name: wordpress-mariadb
   version: master
